@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    /* background-color: white;
+    height: 50px;
+    width:300px; */
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.btn1{
+  background-color:#E4F1F5;  
+  border: none;
+  border-radius: 50%;
+  height: 25px;
+  margin-top:4px;
+  cursor: pointer;
+  
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.input-box{
+    width:150px;
+    border: none;
+    background-color:#E4F1F5;
+    border-radius: 5px;
+    margin: 5px;
+    height: 22px;
+    outline: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.header{
+    background-color: white;
+    height: 60px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.img1{
+    height: 150px;
+    width:150px;
+    /* margin-left: 50px; */
+}
+.full{
+        background-color: white;
+        min-width: 300px; 
+        min-height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        /* border: 2px solid red;  */
+    /* Keeping this for visibility */
+    
+}
+.input-box1{
+    width:250px;
+    border: none;
+    background-color:#E4F1F5;
+    border-radius: 10px;
+    margin: 5px;
+    height: 35px;
+    outline: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+
+}
+.btn2{
+    background-color:#E4F1F5;  
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    margin-top:3px;
+    cursor: pointer;
+    width:35px;
+    
+
+}
+.temperature h1{
+    font-size: 45px;
+    display: inline;
+    position: relative;
+
+}
+.temperature sup{
+    font-size: 18px;
+    font-weight: 700px;
+}
+.temperature p{
+    font-weight: bolder;
+    font-size: 24px;
+    text-transform: capitalize;
+    display: inline;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    justify-content: center;
+    align-items: center ;
+}
+.both div{
+    font-size: larger;
+}
+.humidity{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.humidity-wind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-block: 10px;
+}
+
